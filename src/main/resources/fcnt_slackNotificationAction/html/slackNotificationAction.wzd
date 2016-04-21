@@ -1,0 +1,12 @@
+package fcnt_slackNotificationAction.html
+
+action {
+   label "Slack notification action"
+   wizard "<ff-slack-notification-action view-type='designView'></ff-slack-notification-action>"
+   properties {
+       actionname "slacknotification"
+       slackHook ""
+       submissionThreshold ""
+       slackMessage ""
+   }
+}
